@@ -1,0 +1,166 @@
+::-webkit-scrollbar-thumb:vertical{ height:10px; border:2px solid #ffffff; background-color:#000000; }::-webkit-scrollbar-thumb:horizontal{ background-color:#ffffff; }::-webkit-scrollbar{ width:11px; height:5px; border: 5px solid #ffffff; background-color:#000000; } ::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment{ display:block; height:7px; border-right:2px solid #ffffff; border-left:2px solid #ffffff; background-color:#000000; }::-moz-selection{ background:#000000; color:#000000; } ::selection{ background:#000000; color:#000000; }
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.homePage {
+    height: 100%;
+    background-color: #202020;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 50px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.userPic {
+    height: 100%;
+    width: auto;
+}
+
+.userDetails {
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+    flex-grow: 2;
+}
+.about-me {
+    background-color: white;
+}
+.userDetails p {
+    margin: 0;
+    font-size:  27px;
+    font-family: "VCR OSD Mono";
+
+}
+.userDetails span {
+    margin: 0;
+    display:  inline-block;
+}
+.home {
+    background-color: #202020;
+}
+.home, .projects, .contact {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.links {
+    font-family: "VCR OSD Mono";
+
+}
+
+.home ion-icon,
+.projects ion-icon,
+.contact ion-icon {
+    font-size: 100px;
+
+}
+
+.projects {
+    background-color: #202020;
+
+}
+.hello {
+    text-align: center;
+    font-family: "VCR OSD Mono";
+    padding-top: 150px;
+    font-size: xx-large;
+}
+.contact {
+    background-color: #202020;
+}
+
+.about-me {
+    text-align: center;
+    color: #202020;
+  
+    border-bottom: solid #202020;
+    width: auto;
+    font-size: x-large;
+    padding-bottom: 200px;
+    
+}
+
+.project1, .project2, .project3 {
+    text-align: center;
+    color: black;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+    flex-grow: 2;
+    height: 500px;
+    border-bottom: #202020 solid thin;
+    
+}
+
+
+
+.contact-form {
+    color: white;
+    padding-top: 10px;
+    align-self: center;
+    bottom: 10px;
+    position: absolute;
+    width: auto;
+    border: 1px solid #FFDF6C;
+    height: auto;
+    padding: 10px;
+}
+
+.projectText {
+    width: 40%;
+    float: left;
+}
+
+.projectVideo {
+    float: right;
+   width: 35%;
+}
+
+iframe {
+    margin: 0 auto;
+    display: block;
+    align-self: auto;
+}
+
+.titleLeft {
+    text-align: left;
+    padding-left: 230px;
+}
+
+.projectImage {
+    padding-left: 200px;
+}
+
+.linkClean {
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover {
+    cursor: pointer;
+    
+}
+
+.hydrated {
+    background-color: white;
+}
+
