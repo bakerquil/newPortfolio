@@ -1,7 +1,8 @@
 const path = require('path');
 const express = require('express');
 const app = express();
-const publicDirectoryPath = path.join(__dirname, '../public');
+const publicDirectoryPath = path.join(__dirname, './public');
+const PORT =  process.env.PORT || 3000;
 app.use(express.static(publicDirectoryPath));
 app.set('view engine', 'hbs');
 
@@ -20,6 +21,6 @@ app.get('/contact', (req, res ) => {
   res.render('contact')
 })
  
-app.listen(3000, () => {
-    console.log("The app is running on port 3000");
+app.listen(PORT, () => {
+    console.log(`The app is running on port ${PORT}`);
 })
