@@ -10,25 +10,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
-<link href="//db.onlinewebfonts.com/c/2545d122b16126676225a5b52283ae23?family=VCR+OSD+Mono" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="/css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/2545d122b16126676225a5b52283ae23?family=VCR+OSD+Mono" rel="stylesheet"
+        type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="/js/contactForm.js"></script>
 
 </head>
 
 <body>
     <div class="container">
-          <nav>
+        <nav>
 
 
             <div class="userDetails">
                 <p class="links">Baker Quillin</p>
                 <p class="links">Web Developer</p>
-                
-               
+
+
             </div>
             <div class="home">
                 <a href="/" class="linkClean links">
-                    About Me 
+                    About Me
                 </a>
             </div>
             <div class="projects">
@@ -44,20 +48,45 @@
 
     </div>
     </nav>
-  <div class="contact-form">
-    <ul>
-        <li>Email: bakerquil@gmail.com</li>
-        <li><ion-icon name="logo-linkedin"></ion-icon>https://www.linkedin.com/in/bakerquil111/</li>
-        <li>Phone Number: 704-909-9813</li>
-        <li><ion-icon name="logo-github"></ion-icon>https://github.com/bakerquil</li>
+    <div class="formContact">
+        <h1>Contact Me</h1>
+        <form action="https://formspree.io/f/xjvjvpbd" method="post">
+            <label>
+                E-mail
+                <input type="email" class="email" name="_replyto" />
+            </label>
+            <label>
+                Subject
+                <input type="text" class="message" />
+            </label>
+            <label>
+                Message
+                <textarea></textarea>
+                <button type="submit" class="submit">Send</button>
+            </label>
+            <div class="status">
 
-    </ul>
+            </div>
+        </form>
+    </div>
+    <div class="contact-form">
+        <ul>
+            <li class="listCenter">Email: bakerquil@gmail.com</li>
+            <li class="listCenter">
+                LinkedIn : https://www.linkedin.com/in/bakerquil111/
+            </li>
+            <li class="listCenter">Phone Number: 704-909-9813</li>
+            <li class="listCenter">
+                Github: https://github.com/bakerquil
+            </li>
+
+        </ul>
 
 
 
-  </div>
+    </div>
 
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
 
 </body>
 
