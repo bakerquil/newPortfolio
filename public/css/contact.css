@@ -10,4 +10,15 @@
 
 label, input, textarea {
     display: block;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.formContact {
+    margin-right: 50%;
+    margin-left: 45%;
+    width: 50%;
+    margin-top: 10%;
+
 }
